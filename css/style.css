@@ -1,0 +1,305 @@
+@charset "UTF-8";
+body {
+    color: #20202f;
+    /*font-family: "Hiragino Sans GB", "Hiragino Sans GB W3",Microsoft YaHei,"sans-serif";*/
+    font-family: HelveticaNeueBold, HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", 見出ゴMB31, "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, "Hiragino Kaku Gothic ProN", 游ゴシック, "Yu Gothic", 游ゴシック体, YuGothic, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    padding: 0px;
+    margin: 0px;
+    background: #ededed;
+}
+ <span style="font-size:14px;"><strong><span style="font-size:14px;"><strong></strong></span></strong></span><pre name="code" class="css">/* 显示lang-zh属性内容 */  
+.language:before{content:attr(lang-zh);}
+[css] view plain copy
+/* 隐藏英文 */  
+ .language-en{display:none;}
+ /* 显示lang-en属性内容 */  
+.language:before{  
+    content:attr(lang-en);  
+}  
+/* 隐藏中文 */  
+ .language-zh{  
+    display:none;  
+}  
+video{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+}
+
+.y {
+    background: #ffa;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.rb {
+    color: red;
+    font-weight: bold;
+}
+
+.ub {
+    border-bottom: 5px solid #40404f;
+}
+
+.ur {
+    border-bottom: 3px solid #d30;
+}
+
+.dy {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #e30;
+    line-height: 1.6em;
+    text-align: center;
+    margin-top: 100px;
+    /* font-weight: 500; */
+    letter-spacing: -3px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #40404f;
+    text-align: center;
+    padding: 120px 0 10px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    text-shadow: 2px 2px 2px #fff;
+    line-height: 1.6em;
+
+}
+
+h3 {
+    font-size: 21px;
+    color: #40404f;
+    margin-top: 2em;
+}
+
+#page {
+    padding: 0;
+    background: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#page ul {
+    background: #f2f2f0;
+    padding: 30px 20px 10px 30px;
+    /* border: 1px solid #ded; */
+    line-height: 1.8em;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #fff;
+    color: #20202f;
+}
+#page ul li{
+    padding-bottom:1em;
+    list-style-type:none;
+}
+
+#cta {
+    padding: 0 10px 40px;
+    text-align: center;
+    border: 7px dashed #d30;
+    background: #eee;
+    margin-top: 40px;
+    line-height: 2.4em;
+    font-weight: bold;
+}
+
+.jz {
+    text-align: center;
+}
+
+#downlink {
+    text-align: center;
+    padding: 60px 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#downlink a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#nav {
+    font-size: 18px;
+    line-height: 70px;
+    background: #000;
+    color: #fff;
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 5px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    border-bottom: 5px solid #fff;
+    transition: 0.2s;
+}
+
+#nav a.current {
+    border-bottom: 5px solid #fff;
+}
+
+a#logo {
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+}
+
+#logo img {
+    max-width: 200px;
+    padding: 0;
+    height: 70px;
+}
+
+a#logo:hover {
+    border: 0;
+}
+
+#top {
+    line-height: 70px;
+    background: #000;
+    color: #fff;
+    margin: 0 auto;
+    height: 70px;
+}
+
+img.ewm {
+    max-width: 200px;
+}
+
+#footer {
+    text-align: center;
+    color: #666;
+    font-family: arial;
+    padding: 50px 10px 50px;
+    margin-top: 30px;
+    font-size: 14px;
+    background: #000;
+    letter-spacing: 2px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #666;
+}
+
+#footer .footlogo img {
+    max-width: 200px;
+}
+
+.bigimg {
+    width: 100%;
+}
+
+#main {
+    padding: 30px;
+}
+
+#main p{
+    margin: 2em 0 1.6em;
+    font-size: 18px;
+    color: #20202f;
+    line-height: 2em;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #ddd;
+    color:#666;
+}
+
+legend {
+    font-weight: bold;
+    padding: 2px 10px;
+    font-size: 18px;
+    background: #f1f1f2;
+    color: #30303f;
+}
+#gonggao{
+    text-align: center;
+    padding: 20px 15px;
+    border-radius:5px;
+    background: #ecf0f5;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #40404F;
+    line-height: 1.8em;
+}
+#gonggao p{
+    font-size: 21px;
+}
+
+#footlink{font-size: 14px;text-align: center;color:#666;}
+#footlink a{color:#666;text-decoration: none;}
+#chengnuo{
+    color: #e00;
+    background: #ff9;
+    padding: 10px 10px;
+    border: 1px dashed;
+    letter-spacing: -1px;
+    display: block;
+}
+
+@media (max-width: 780px) {
+    img.halfimg {
+        max-width: 60%;
+    }
+    #page {
+        margin: 0;
+        border: 0px;
+        padding: 0;
+    }
+    #logo {
+        display: none;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size:18px;
+    }
+    #nav {
+        text-align: center;
+        font-size:0.95em;
+    }
+    #main {
+        padding: 20px 10px;
+    }
+    #main p{
+        font-size: 16px;
+        line-height: 1.6em;
+    }
+    #footlink{display: none;}
+    #cta{
+        border:2px dashed #e30;
+    }
+    #main ul{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
